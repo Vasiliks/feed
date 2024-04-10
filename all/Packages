@@ -1089,6 +1089,100 @@ OE: enigma2-plugin-drivers-network-usb-rt3070
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-drivers-network-usb-rt3573-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4542a7c17d94b36a8c54ee13d4bb121f
+SHA256sum: 6959619afc765c0264d9f234683ee0d1449b98abeb248fc3f6e79e422a990645
+Size: 622
+Filename: enigma2-plugin-drivers-network-usb-rt3573-dbg_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rt3573.bb
+Description: rt3573 802.11a/b/g/n 2.4/5 GHz USB Single Chip - Debugging files
+OE: enigma2-plugin-drivers-network-usb-rt3573
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rt3573-dev
+Version: 1.0-r0
+Recommends: enigma2-plugin-drivers-network-usb-rt3573 (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c12d779d6cce39fcd3f843f075ca1a09
+SHA256sum: 555ccf4ce424e5d9d41cdffab8e8979c7df50e97838b993321592be8d0b02646
+Size: 654
+Filename: enigma2-plugin-drivers-network-usb-rt3573-dev_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rt3573.bb
+Description: rt3573 802.11a/b/g/n 2.4/5 GHz USB Single Chip - Development files
+OE: enigma2-plugin-drivers-network-usb-rt3573
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rt3573
+Version: 1.0-r0
+Recommends: rt3573
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 33a60ee55299a814d187805612e85432
+SHA256sum: 8e26616c2b70458f5b591019e876f980e92a2017f744ecea44ffad351a86b18b
+Size: 564
+Filename: enigma2-plugin-drivers-network-usb-rt3573_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rt3573.bb
+Description: rt3573 802.11a/b/g/n 2.4/5 GHz USB Single Chip
+OE: enigma2-plugin-drivers-network-usb-rt3573
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rt5572-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 148817bbc285eb0552db949c26144c2e
+SHA256sum: da9d87b1ad7fc1263c642e39025beaba53565a1e44df2f8972c364839987b55e
+Size: 622
+Filename: enigma2-plugin-drivers-network-usb-rt5572-dbg_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rt5572.bb
+Description: 802.11a/b/g/n 2T2R 2.4/5 GHz USB Single Chip - Debugging files
+OE: enigma2-plugin-drivers-network-usb-rt5572
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rt5572-dev
+Version: 1.0-r0
+Recommends: enigma2-plugin-drivers-network-usb-rt5572 (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 624fe00102d89959de29ec49a39c2ad3
+SHA256sum: 7ef596a2e897496c4a044a362076bb72f0ca9f9c110f4071f51aeccacaa40384
+Size: 656
+Filename: enigma2-plugin-drivers-network-usb-rt5572-dev_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rt5572.bb
+Description: 802.11a/b/g/n 2T2R 2.4/5 GHz USB Single Chip - Development files
+OE: enigma2-plugin-drivers-network-usb-rt5572
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rt5572
+Version: 1.0-r0
+Recommends: rt5572
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4b0725aedff87797ea3b9b9aa404e003
+SHA256sum: df6677f84574767dda5803e2cbb7912413daa560d6839f60a33bd4d15c8587e4
+Size: 568
+Filename: enigma2-plugin-drivers-network-usb-rt5572_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rt5572.bb
+Description: 802.11a/b/g/n 2T2R 2.4/5 GHz USB Single Chip
+OE: enigma2-plugin-drivers-network-usb-rt5572
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-drivers-network-usb-rt73-dbg
 Version: 1.0-r0
 Section: devel
@@ -1133,6 +1227,53 @@ Filename: enigma2-plugin-drivers-network-usb-rt73_1.0-r0_all.ipk
 Source: enigma2-plugin-drivers-network-usb-rt73.bb
 Description: Driver for Ralink USB devices RT2571W, RT2573 & RT2671
 OE: enigma2-plugin-drivers-network-usb-rt73
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rt8723bs-dbg
+Version: 1.0-r2
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 523216d8990a5735d59c1c065cd37158
+SHA256sum: 8808c3962b7afadce2cb31d1deef8187b31f73c3fd32d319972f437d81b371c8
+Size: 612
+Filename: enigma2-plugin-drivers-network-usb-rt8723bs-dbg_1.0-r2_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rt8723bs.bb
+Description: WiFi devices for Realtek 8723bs chipsets. - Debugging files
+OE: enigma2-plugin-drivers-network-usb-rt8723bs
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rt8723bs-dev
+Version: 1.0-r2
+Recommends: enigma2-plugin-drivers-network-usb-rt8723bs (= 1.0-r2)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 397bb9ab4eab75cca1c555a4f738569e
+SHA256sum: 853a4321c0207b5cf8bad649086704fe0f2d269bc6b10c56cdb11b9522914071
+Size: 646
+Filename: enigma2-plugin-drivers-network-usb-rt8723bs-dev_1.0-r2_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rt8723bs.bb
+Description: WiFi devices for Realtek 8723bs chipsets. - Development files
+OE: enigma2-plugin-drivers-network-usb-rt8723bs
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rt8723bs
+Version: 1.0-r2
+Recommends: rt8723bs
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: df86912cbc082c6cf475a07084c0fb73
+SHA256sum: 277b8a9ee4762b830bc5808e1c8cef2965a370d3dd640976f7d800ce3b6209e7
+Size: 556
+Filename: enigma2-plugin-drivers-network-usb-rt8723bs_1.0-r2_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rt8723bs.bb
+Description: WiFi devices for Realtek 8723bs chipsets.
+OE: enigma2-plugin-drivers-network-usb-rt8723bs
 License: GPL-2.0-only
 Priority: optional
 
@@ -1227,6 +1368,53 @@ Filename: enigma2-plugin-drivers-network-usb-rtl8187_1.0-r0_all.ipk
 Source: enigma2-plugin-drivers-network-usb-rtl8187.bb
 Description: WiFi devices for Realtek 802.11a/bg chipsets.
 OE: enigma2-plugin-drivers-network-usb-rtl8187
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rtl8188fu-dbg
+Version: 1.0-r1
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0b32bcfa502b6abdd9883d328d8b839b
+SHA256sum: 6ab92fe539df6243c29cd0512de4e9ab46f688b7366cc508e60dcce6f0af55f7
+Size: 612
+Filename: enigma2-plugin-drivers-network-usb-rtl8188fu-dbg_1.0-r1_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8188fu.bb
+Description: WiFi devices for Realtek 8188fu chipsets. - Debugging files
+OE: enigma2-plugin-drivers-network-usb-rtl8188fu
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rtl8188fu-dev
+Version: 1.0-r1
+Recommends: enigma2-plugin-drivers-network-usb-rtl8188fu (= 1.0-r1)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7898e506515d0e12038056df44dfb90c
+SHA256sum: dab74f89b4a638316af6ba49c6aa7158a7ff3f7faa815cc5ef9383fc34a78c46
+Size: 648
+Filename: enigma2-plugin-drivers-network-usb-rtl8188fu-dev_1.0-r1_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8188fu.bb
+Description: WiFi devices for Realtek 8188fu chipsets. - Development files
+OE: enigma2-plugin-drivers-network-usb-rtl8188fu
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rtl8188fu
+Version: 1.0-r1
+Recommends: firmware-rt8188fu, rt8188fu
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d73f376829f6bb8776be6cb54467c528
+SHA256sum: 064466ef5e1f5021276225b25c34e62fe1e8a25ca90609fa946ebd8e784280ce
+Size: 574
+Filename: enigma2-plugin-drivers-network-usb-rtl8188fu_1.0-r1_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8188fu.bb
+Description: WiFi devices for Realtek 8188fu chipsets.
+OE: enigma2-plugin-drivers-network-usb-rtl8188fu
 License: GPL-2.0-only
 Priority: optional
 
@@ -1371,6 +1559,53 @@ OE: enigma2-plugin-drivers-network-usb-rtl8192eu
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-drivers-network-usb-rtl8192fu-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ab4d48fac43b354de1a765f50146a794
+SHA256sum: 14cc22db10fa7ed032bc064deeff1c1044175057fb79c9e0daf179ace87e59e7
+Size: 616
+Filename: enigma2-plugin-drivers-network-usb-rtl8192fu-dbg_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8192fu.bb
+Description: WiFi devices for Realtek 8192FU chipsets. - Debugging files
+OE: enigma2-plugin-drivers-network-usb-rtl8192fu
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rtl8192fu-dev
+Version: 1.0-r0
+Recommends: enigma2-plugin-drivers-network-usb-rtl8192fu (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9a23cbc1783872a523f73ed6e615ecee
+SHA256sum: 21117b17320e52b232048734aae339b5e9119b8b3dd25833d70a75133df01528
+Size: 650
+Filename: enigma2-plugin-drivers-network-usb-rtl8192fu-dev_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8192fu.bb
+Description: WiFi devices for Realtek 8192FU chipsets. - Development files
+OE: enigma2-plugin-drivers-network-usb-rtl8192fu
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rtl8192fu
+Version: 1.0-r0
+Recommends: rtl8192fu
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 80ff0fb0c7d65207dc1f62991d5e35dd
+SHA256sum: 2fe235dad9217bb9b57bada6030431f2da0d0fa96baa306ebcf272545927024e
+Size: 562
+Filename: enigma2-plugin-drivers-network-usb-rtl8192fu_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8192fu.bb
+Description: WiFi devices for Realtek 8192FU chipsets.
+OE: enigma2-plugin-drivers-network-usb-rtl8192fu
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-drivers-network-usb-rtl8812au-dbg
 Version: 1.0-r0
 Section: devel
@@ -1415,6 +1650,147 @@ Filename: enigma2-plugin-drivers-network-usb-rtl8812au_1.0-r0_all.ipk
 Source: enigma2-plugin-drivers-network-usb-rtl8812au.bb
 Description: WiFi devices for Realtek 8812AU/8821AU chipsets.
 OE: enigma2-plugin-drivers-network-usb-rtl8812au
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rtl8814au-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7c51e9dd2be0920f6b02ff206aa983f4
+SHA256sum: 5768f78737c95f1d249f786d860bbc603b3ae07d348025b2354784cf7e5cd23d
+Size: 614
+Filename: enigma2-plugin-drivers-network-usb-rtl8814au-dbg_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8814au.bb
+Description: WiFi devices for Realtek 8814AU chipsets. - Debugging files
+OE: enigma2-plugin-drivers-network-usb-rtl8814au
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rtl8814au-dev
+Version: 1.0-r0
+Recommends: enigma2-plugin-drivers-network-usb-rtl8814au (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a159e575c0e47e2819fe089ce8e03f44
+SHA256sum: 32e4c382d1b1b21abd2288829cbd5a05ea5cfa83c8a6ed3f486c9cb415a17967
+Size: 650
+Filename: enigma2-plugin-drivers-network-usb-rtl8814au-dev_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8814au.bb
+Description: WiFi devices for Realtek 8814AU chipsets. - Development files
+OE: enigma2-plugin-drivers-network-usb-rtl8814au
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rtl8814au
+Version: 1.0-r0
+Recommends: rt8814au
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ee54862a9148de18b8014b2e55a1f98a
+SHA256sum: 913a10d1ba39e2eb61bb9b25c66c23ab5f728155ac2881dab81d6e72877afd6f
+Size: 562
+Filename: enigma2-plugin-drivers-network-usb-rtl8814au_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8814au.bb
+Description: WiFi devices for Realtek 8814AU chipsets.
+OE: enigma2-plugin-drivers-network-usb-rtl8814au
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rtl8821cu-dbg
+Version: 1.0-r2
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4b476d2ff41bede9b424920116298a08
+SHA256sum: 0d2fdb648d080ac5fd3d31361eefe86ea32809e01f63a0a04e5b7a70de7efbf2
+Size: 616
+Filename: enigma2-plugin-drivers-network-usb-rtl8821cu-dbg_1.0-r2_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8821cu.bb
+Description: WiFi devices for Realtek 88x1CU chipsets. - Debugging files
+OE: enigma2-plugin-drivers-network-usb-rtl8821cu
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rtl8821cu-dev
+Version: 1.0-r2
+Recommends: enigma2-plugin-drivers-network-usb-rtl8821cu (= 1.0-r2)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4477fe8b87ed7a24b48dc76f1e3aaec3
+SHA256sum: 57accf8d740780823ffd26d7a3d1a3a2def47825be2361105be2a17c63c07c7b
+Size: 650
+Filename: enigma2-plugin-drivers-network-usb-rtl8821cu-dev_1.0-r2_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8821cu.bb
+Description: WiFi devices for Realtek 88x1CU chipsets. - Development files
+OE: enigma2-plugin-drivers-network-usb-rtl8821cu
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rtl8821cu
+Version: 1.0-r2
+Recommends: linux-firmware-8821cu, rt8821cu
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 48cdadf36fcab94da113f8b7ed7687ad
+SHA256sum: 25d729cb8d75be818a05e9b1ea3397a1497b7fef63b19ec0783a9e8a0bda8204
+Size: 582
+Filename: enigma2-plugin-drivers-network-usb-rtl8821cu_1.0-r2_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8821cu.bb
+Description: WiFi devices for Realtek 88x1CU chipsets.
+OE: enigma2-plugin-drivers-network-usb-rtl8821cu
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rtl8822bu-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1da44b4e5d64acb72a88994704fadbe6
+SHA256sum: bdb188dd3a4ca99f4ada0e8f7de3ac9cce275d6e2acb8101b0748c5045796b16
+Size: 616
+Filename: enigma2-plugin-drivers-network-usb-rtl8822bu-dbg_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8822bu.bb
+Description: WiFi devices for Realtek 88x2BU chipsets. - Debugging files
+OE: enigma2-plugin-drivers-network-usb-rtl8822bu
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rtl8822bu-dev
+Version: 1.0-r0
+Recommends: enigma2-plugin-drivers-network-usb-rtl8822bu (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0b1c6646e198bfb2c0e4c8c55080ab0b
+SHA256sum: bae257ffdb7af7975b6d3d8e7c7bb25b038ed5bd73dd65457e953644697210fd
+Size: 652
+Filename: enigma2-plugin-drivers-network-usb-rtl8822bu-dev_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8822bu.bb
+Description: WiFi devices for Realtek 88x2BU chipsets. - Development files
+OE: enigma2-plugin-drivers-network-usb-rtl8822bu
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rtl8822bu
+Version: 1.0-r0
+Recommends: rt8822bu
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6131c25d301b4967ab23d0c10f63d933
+SHA256sum: 0222363e487b843d66d7c8c3aa68b5f94863b23bc0f8f0b3732ed4147fbac8f8
+Size: 566
+Filename: enigma2-plugin-drivers-network-usb-rtl8822bu_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8822bu.bb
+Description: WiFi devices for Realtek 88x2BU chipsets.
+OE: enigma2-plugin-drivers-network-usb-rtl8822bu
 License: GPL-2.0-only
 Priority: optional
 
@@ -3884,6 +4260,53 @@ OE: enigma2-plugin-settings-morph883-motor
 License: CLOSED
 Priority: optional
 
+Package: enigma2-plugin-skins-e2darkos-dbg
+Version: 1.0+git217+4fba54b-r0
+Section: devel
+Architecture: all
+Maintainer: DimitarCC
+MD5Sum: a3f1867a4f026588da2b45bcdda5aaf8
+SHA256sum: d1cca872379374f247c2cfa2d325d04192590b2fc7ef50e0ed5bf6506dd241ac
+Size: 594
+Filename: enigma2-plugin-skins-e2darkos-dbg_1.0+git217+4fba54b-r0_all.ipk
+Source: enigma2-plugin-skins-e2darkos.bb
+Description: enigma2-plugin-skins-e2darkos version 1.0+git-r0 - Debugging files
+OE: enigma2-plugin-skins-e2darkos
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-e2darkos-dev
+Version: 1.0+git217+4fba54b-r0
+Recommends: enigma2-plugin-skins-e2darkos (= 1.0+git217+4fba54b-r0)
+Section: devel
+Architecture: all
+Maintainer: DimitarCC
+MD5Sum: 6ad66f3af67ee608bf9097dee40ce8fd
+SHA256sum: c6ea28b538416af3ea223589ada65b552f57ead474b24b4c543497eeb28c99f8
+Size: 630
+Filename: enigma2-plugin-skins-e2darkos-dev_1.0+git217+4fba54b-r0_all.ipk
+Source: enigma2-plugin-skins-e2darkos.bb
+Description: enigma2-plugin-skins-e2darkos version 1.0+git-r0 - Development files
+OE: enigma2-plugin-skins-e2darkos
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-e2darkos
+Version: 1.0+git217+4fba54b-r0
+Recommends: enigma2-boxlogos
+Section: base
+Architecture: all
+Maintainer: DimitarCC
+MD5Sum: 71366cc7a729b111e9689a888c79394e
+SHA256sum: fefc9b2709388dd98febc7991f8528963241be41ef57efe905748ef6b6ab6bcb
+Size: 3055244
+Filename: enigma2-plugin-skins-e2darkos_1.0+git217+4fba54b-r0_all.ipk
+Source: enigma2-plugin-skins-e2darkos.bb
+Description: enigma2-plugin-skins-e2darkos version 1.0+git-r0
+OE: enigma2-plugin-skins-e2darkos
+License: GPL-3.0-only
+Priority: optional
+
 Package: enigma2-plugin-skins-magic
 Version: 1.0+git331+8b5fb84-r0
 Depends: font-valis-enigma
@@ -4994,6 +5417,55 @@ HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
 License: LGPL-2.1-only
 Priority: optional
 
+Package: linux-firmware-8821cu-dbg
+Version: 1.0-r0.1
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9b15d79000c59b25aaf72c75cee06460
+SHA256sum: aae0d5621e9d03e9d726808ea608bff7c5af1b6b92e8a99faa563a36cf558b62
+Size: 608
+Filename: linux-firmware-8821cu-dbg_1.0-r0.1_all.ipk
+Source: linux-firmware-8821cu.bb
+Description: Realtek 8821CU firmware - Debugging files
+OE: linux-firmware-8821cu
+HomePage: https://www.realtek.com/
+License: Proprietary
+Priority: optional
+
+Package: linux-firmware-8821cu-dev
+Version: 1.0-r0.1
+Recommends: linux-firmware-8821cu (= 1.0-r0.1)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2dbe092eb57428a5f6b5596a19f302b9
+SHA256sum: 01aaa876927a889c4dbcd8608256fc3dd61ae332f1b1802f937edbe9698a8d9a
+Size: 636
+Filename: linux-firmware-8821cu-dev_1.0-r0.1_all.ipk
+Source: linux-firmware-8821cu.bb
+Description: Realtek 8821CU firmware - Development files
+OE: linux-firmware-8821cu
+HomePage: https://www.realtek.com/
+License: Proprietary
+Priority: optional
+
+Package: linux-firmware-8821cu
+Version: 1.0-r0.1
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 25755146c5bc67c2cbfbe091e66e3673
+SHA256sum: 4e049c16dd456df634b5f47ac1c947d96f5230c7f9a1254813d4c13faf033011
+Size: 19718
+Filename: linux-firmware-8821cu_1.0-r0.1_all.ipk
+Source: linux-firmware-8821cu.bb
+Description: Realtek 8821CU firmware
+OE: linux-firmware-8821cu
+HomePage: https://www.realtek.com/
+License: Proprietary
+Priority: optional
+
 Package: mm-common-dbg
 Version: 1.0.4-r0
 Section: devel
@@ -5282,15 +5754,65 @@ OE: softcam-support
 License: GPL-2.0-only
 Priority: optional
 
+Package: streamlinksrv-dbg
+Version: 1.8.4+git25+c7ae8ab-r0
+Section: devel
+Architecture: all
+Maintainer: SatDreamGR Billy2011
+MD5Sum: 400460f4a58d798cc7aa0fbbc80d908e
+SHA256sum: 9f7941535cbb52043df9cb5527a1d0544b1a81bd948bd6788f405fe2205cbd7e
+Size: 600
+Filename: streamlinksrv-dbg_1.8.4+git25+c7ae8ab-r0_all.ipk
+Source: streamlinksrv.bb
+Description: streamlinksrv version 1.8.4+git-r0 - Debugging files
+OE: streamlinksrv
+HomePage: www.satdreamgr.com
+License: GPL-2.0-only
+Priority: optional
+
+Package: streamlinksrv-dev
+Version: 1.8.4+git25+c7ae8ab-r0
+Recommends: python3-core-dev, streamlink-dev, streamlinksrv (= 1.8.4+git25+c7ae8ab-r0)
+Section: devel
+Architecture: all
+Maintainer: SatDreamGR Billy2011
+MD5Sum: 9090c946ad0db39805699a87283a6c2b
+SHA256sum: cfc8afbfc38328af55c8055cd7655bde4ff65e3f452f176483c8abf9eefe3172
+Size: 650
+Filename: streamlinksrv-dev_1.8.4+git25+c7ae8ab-r0_all.ipk
+Source: streamlinksrv.bb
+Description: streamlinksrv version 1.8.4+git-r0 - Development files
+OE: streamlinksrv
+HomePage: www.satdreamgr.com
+License: GPL-2.0-only
+Priority: optional
+
+Package: streamlinksrv
+Version: 1.8.4+git25+c7ae8ab-r0
+Depends: python3-core, streamlink
+Section: devel/python
+Architecture: all
+Maintainer: SatDreamGR Billy2011
+MD5Sum: 3d99aafe7b2d837381f0eb22db10a609
+SHA256sum: d2fa7773fc42f81744e31b00186cf80e6577412990fc1188bf3bd0dfacc0914b
+Size: 85892
+Filename: streamlinksrv_1.8.4+git25+c7ae8ab-r0_all.ipk
+Source: streamlinksrv.bb
+Description: streamlinksrv version 1.8.4+git-r0
+OE: streamlinksrv
+HomePage: www.satdreamgr.com
+License: GPL-2.0-only
+Priority: optional
+
 Package: tuxbox-common-dbg
-Version: 2+git616+f1c011e-3
+Version: 2+git617+1c0f283-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 0e014b48939a44f77491116105926d02
-SHA256sum: 0399196ecef38b3be9d4562071a9ff26be3f98d974f56f12b37bb32a1e56931e
+MD5Sum: e3c9efbf504dc26df29854f36d779131
+SHA256sum: 28649e191b0149accd40f037c0f967d970c16e5723fa81899de31fa1dc72c572
 Size: 560
-Filename: tuxbox-common-dbg_2+git616+f1c011e-3_all.ipk
+Filename: tuxbox-common-dbg_2+git617+1c0f283-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -5298,15 +5820,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git616+f1c011e-3
-Recommends: tuxbox-common (>= 2+git616+f1c011e-3), tuxbox-common (<< 2+git616+f1c011e-3.0), xz-dev
+Version: 2+git617+1c0f283-3
+Recommends: tuxbox-common (>= 2+git617+1c0f283-3), tuxbox-common (<< 2+git617+1c0f283-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 32d284183fd521a4d07c12a828d54c3e
-SHA256sum: 874e469e21093add5a8c9edc7aea53b54492589839cfeb87f650e50fcaa1fa57
-Size: 612
-Filename: tuxbox-common-dev_2+git616+f1c011e-3_all.ipk
+MD5Sum: 37b88c3a51ad27a3bb2ee5dba7dfbf21
+SHA256sum: ac538a0ae71b38068a0e5b9d7d803518838ebdead0db781eb0482648a05f6fa6
+Size: 614
+Filename: tuxbox-common-dev_2+git617+1c0f283-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -5314,15 +5836,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git616+f1c011e-3
+Version: 2+git617+1c0f283-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 72acd6279e8ac1aad0286fc00717a1cf
-SHA256sum: 9e68ab39c3cbe70c4efdcb3837f4037981022a244016e7e86103a39eb7cd1604
-Size: 73406
-Filename: tuxbox-common_2+git616+f1c011e-3_all.ipk
+MD5Sum: 79b5a50cc6e02a092dc379dbda781310
+SHA256sum: 7235fa8d0243ad055ea16e7e59ed2bbedb1bd06283a3d2ad6adfe51b952c132f
+Size: 73402
+Filename: tuxbox-common_2+git617+1c0f283-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
