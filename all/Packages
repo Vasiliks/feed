@@ -4509,14 +4509,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-timezones-dbg
-Version: git897+9b0ed9e-r0
+Version: git899+09787ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cf10e5ecd7fe36060731b770f9ac30c3
-SHA256sum: 8035b43f53cf6ac9987279202ae18d909d686d8a6c31c05635dcb3d4feed2b29
+MD5Sum: 4182ac5380c2289cbaea8be5da08673c
+SHA256sum: f0b943cef9fae0600239f922d38b7570b2eb4de11aa20b5b7b8bf60b0d0d0336
 Size: 586
-Filename: enigma2-timezones-dbg_git897+9b0ed9e-r0_all.ipk
+Filename: enigma2-timezones-dbg_git899+09787ec-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2 - Debugging files
 OE: enigma2-timezones
@@ -4524,15 +4524,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-timezones-dev
-Version: git897+9b0ed9e-r0
-Recommends: enigma2-timezones (= git897+9b0ed9e-r0)
+Version: git899+09787ec-r0
+Recommends: enigma2-timezones (= git899+09787ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6f9de7b3de4a2e1d8ffc0eaabd42d741
-SHA256sum: 631aa89df20949fe9516cecae25c7b0c356aeef2fb99f36d7530674d036270cd
-Size: 618
-Filename: enigma2-timezones-dev_git897+9b0ed9e-r0_all.ipk
+MD5Sum: ba125c4a9602c545fe543acb073b4d9c
+SHA256sum: 8718564b6de48cc6daa3e05da85f9437fb3f47aad95597dcd563c04857198de5
+Size: 620
+Filename: enigma2-timezones-dev_git899+09787ec-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2 - Development files
 OE: enigma2-timezones
@@ -4540,14 +4540,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-timezones
-Version: git897+9b0ed9e-r0
+Version: git899+09787ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f338df0b4da396dee22756a158b8954a
-SHA256sum: d6a6d8ebed827348e04afe828519417e56847b1436b77430db34edf2beeb15c4
-Size: 7338
-Filename: enigma2-timezones_git897+9b0ed9e-r0_all.ipk
+MD5Sum: 4e2a61b2cf99b96a1f3dee16d9027244
+SHA256sum: 080adc82087c89e97928a437da42145fe178564e1b9acf99b8f739a4c5e756be
+Size: 7336
+Filename: enigma2-timezones_git899+09787ec-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2
 OE: enigma2-timezones
@@ -5805,14 +5805,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git619+525f5b0-3
+Version: 2+git620+2c51ccb-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 999b2fe80588f245483b75e3b0c77330
-SHA256sum: ebe5f97519004596f5c8621b819da0d4aaba9f76089aca8b98f04be53f01d08f
-Size: 560
-Filename: tuxbox-common-dbg_2+git619+525f5b0-3_all.ipk
+MD5Sum: fbdd5d4398e0c7263f9d18fcb1a94eb8
+SHA256sum: 0a53b3c3064afff671f27a4ca6ff838225a957e3c350490d2de10b2517ce49fe
+Size: 558
+Filename: tuxbox-common-dbg_2+git620+2c51ccb-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -5820,15 +5820,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git619+525f5b0-3
-Recommends: tuxbox-common (>= 2+git619+525f5b0-3), tuxbox-common (<< 2+git619+525f5b0-3.0), xz-dev
+Version: 2+git620+2c51ccb-3
+Recommends: tuxbox-common (>= 2+git620+2c51ccb-3), tuxbox-common (<< 2+git620+2c51ccb-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: f564ca5df4f941232a7cf9c3bc4f4694
-SHA256sum: 69d21f56ad3e84ce05b750947cbea6289c907885499f3c2641cde297b6d5aa93
-Size: 614
-Filename: tuxbox-common-dev_2+git619+525f5b0-3_all.ipk
+MD5Sum: c957c4aacd389349e1d479ed8981d950
+SHA256sum: 856f61a81af22eb1f73e391bce50e9699c22b0ef199751d4473d66b6363efc7f
+Size: 612
+Filename: tuxbox-common-dev_2+git620+2c51ccb-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -5836,15 +5836,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git619+525f5b0-3
+Version: 2+git620+2c51ccb-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: ea1061d08c2511d681b2e7e7284b03c0
-SHA256sum: e2c0f285f8ef91be03a14d8552b70f7153ba985b0091e0034210a7b20255181e
-Size: 73414
-Filename: tuxbox-common_2+git619+525f5b0-3_all.ipk
+MD5Sum: 8bc67c001091f59020f221d5f046f460
+SHA256sum: 405b2ee09b216946d3d7a4f46bfce5c6a92bfbc46bc71bb6b262817ce6915691
+Size: 73368
+Filename: tuxbox-common_2+git620+2c51ccb-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
