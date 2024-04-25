@@ -5563,13 +5563,13 @@ Priority: optional
 
 Package: network-usb-drivers-meta-dbg
 Version: 1.0-r0
-Recommends: enigma2-plugin-drivers-network-usb-carl9170-dbg, enigma2-plugin-drivers-network-usb-lan78xx-dbg, enigma2-plugin-drivers-network-usb-mt7601u-dbg, enigma2-plugin-drivers-network-usb-r8188eu-dbg, enigma2-plugin-drivers-network-usb-r8712u-dbg, enigma2-plugin-drivers-network-usb-rt2500-dbg, enigma2-plugin-drivers-network-usb-rt2800-dbg, enigma2-plugin-drivers-network-usb-rt73-dbg, enigma2-plugin-drivers-network-usb-rtl8152-dbg, enigma2-plugin-drivers-network-usb-rtl8187-dbg, enigma2-plugin-drivers-network-usb-rtl8192cu-rev2-dbg, enigma2-plugin-drivers-network-usb-rtl8812au-dbg, enigma2-plugin-drivers-network-usb-zd1211rw-dbg
+Recommends: enigma2-plugin-drivers-network-usb-carl9170-dbg, enigma2-plugin-drivers-network-usb-lan78xx-dbg, enigma2-plugin-drivers-network-usb-mt7601u-dbg, enigma2-plugin-drivers-network-usb-r8188eu-dbg, enigma2-plugin-drivers-network-usb-r8712u-dbg, enigma2-plugin-drivers-network-usb-rt2500-dbg, enigma2-plugin-drivers-network-usb-rt2800-dbg, enigma2-plugin-drivers-network-usb-rt73-dbg, enigma2-plugin-drivers-network-usb-rtl8152-dbg, enigma2-plugin-drivers-network-usb-rtl8187-dbg, enigma2-plugin-drivers-network-usb-rtl8192cu-rev2-dbg, enigma2-plugin-drivers-network-usb-rtl8812au-dbg, enigma2-plugin-drivers-network-usb-rtl8852cu-dbg, enigma2-plugin-drivers-network-usb-zd1211rw-dbg
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 481b56f9489604636e75d487303bea9c
-SHA256sum: 44e6636651bbc63d7dd7c840f2aab389de51f48b7ac5af30b7ccde071cc9bae8
-Size: 698
+MD5Sum: a448cba7570d2e06c10fe802f5df6a8d
+SHA256sum: 652b57444b7aefac25c193513fbff4f83a55368e11c90b8aad5b75f927ec86e7
+Size: 706
 Filename: network-usb-drivers-meta-dbg_1.0-r0_all.ipk
 Source: network-usb-drivers-meta.bb
 Description: meta file for USB Network drivers - Debugging files
@@ -5579,13 +5579,13 @@ Priority: optional
 
 Package: network-usb-drivers-meta-dev
 Version: 1.0-r0
-Recommends: enigma2-plugin-drivers-network-usb-carl9170-dev, enigma2-plugin-drivers-network-usb-lan78xx-dev, enigma2-plugin-drivers-network-usb-mt7601u-dev, enigma2-plugin-drivers-network-usb-r8188eu-dev, enigma2-plugin-drivers-network-usb-r8712u-dev, enigma2-plugin-drivers-network-usb-rt2500-dev, enigma2-plugin-drivers-network-usb-rt2800-dev, enigma2-plugin-drivers-network-usb-rt73-dev, enigma2-plugin-drivers-network-usb-rtl8152-dev, enigma2-plugin-drivers-network-usb-rtl8187-dev, enigma2-plugin-drivers-network-usb-rtl8192cu-rev2-dev, enigma2-plugin-drivers-network-usb-rtl8812au-dev, enigma2-plugin-drivers-network-usb-zd1211rw-dev, network-usb-drivers-meta (= 1.0-r0)
+Recommends: enigma2-plugin-drivers-network-usb-carl9170-dev, enigma2-plugin-drivers-network-usb-lan78xx-dev, enigma2-plugin-drivers-network-usb-mt7601u-dev, enigma2-plugin-drivers-network-usb-r8188eu-dev, enigma2-plugin-drivers-network-usb-r8712u-dev, enigma2-plugin-drivers-network-usb-rt2500-dev, enigma2-plugin-drivers-network-usb-rt2800-dev, enigma2-plugin-drivers-network-usb-rt73-dev, enigma2-plugin-drivers-network-usb-rtl8152-dev, enigma2-plugin-drivers-network-usb-rtl8187-dev, enigma2-plugin-drivers-network-usb-rtl8192cu-rev2-dev, enigma2-plugin-drivers-network-usb-rtl8812au-dev, enigma2-plugin-drivers-network-usb-rtl8852cu-dev, enigma2-plugin-drivers-network-usb-zd1211rw-dev, network-usb-drivers-meta (= 1.0-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 20fab06b13b7091a342ddadfc5802c7f
-SHA256sum: 2f26aefbec7f8b1680fe4eb43851f67bf5105f8712e46c5aec737d51bdb8921d
-Size: 724
+MD5Sum: c54a8e05c257154cad6f58d7c289136c
+SHA256sum: 9074007a74644226dc44ea01918fbddbffcbc71d99dabf7aa948eb37a72a707f
+Size: 728
 Filename: network-usb-drivers-meta-dev_1.0-r0_all.ipk
 Source: network-usb-drivers-meta.bb
 Description: meta file for USB Network drivers - Development files
@@ -5595,13 +5595,13 @@ Priority: optional
 
 Package: network-usb-drivers-meta
 Version: 1.0-r0
-Depends: enigma2-plugin-drivers-network-usb-carl9170, enigma2-plugin-drivers-network-usb-lan78xx, enigma2-plugin-drivers-network-usb-mt7601u, enigma2-plugin-drivers-network-usb-r8188eu, enigma2-plugin-drivers-network-usb-r8712u, enigma2-plugin-drivers-network-usb-rt2500, enigma2-plugin-drivers-network-usb-rt2800, enigma2-plugin-drivers-network-usb-rt73, enigma2-plugin-drivers-network-usb-rtl8152, enigma2-plugin-drivers-network-usb-rtl8187, enigma2-plugin-drivers-network-usb-rtl8192cu-rev2, enigma2-plugin-drivers-network-usb-rtl8812au, enigma2-plugin-drivers-network-usb-zd1211rw
+Depends: enigma2-plugin-drivers-network-usb-carl9170, enigma2-plugin-drivers-network-usb-lan78xx, enigma2-plugin-drivers-network-usb-mt7601u, enigma2-plugin-drivers-network-usb-r8188eu, enigma2-plugin-drivers-network-usb-r8712u, enigma2-plugin-drivers-network-usb-rt2500, enigma2-plugin-drivers-network-usb-rt2800, enigma2-plugin-drivers-network-usb-rt73, enigma2-plugin-drivers-network-usb-rtl8152, enigma2-plugin-drivers-network-usb-rtl8187, enigma2-plugin-drivers-network-usb-rtl8192cu-rev2, enigma2-plugin-drivers-network-usb-rtl8812au, enigma2-plugin-drivers-network-usb-rtl8852cu, enigma2-plugin-drivers-network-usb-zd1211rw
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 32f8668a4e1f44ca1ef429b3eaac238a
-SHA256sum: 4fb75d7765e04962d885c1b36445245ad51afb8413ffa18a9d82b3ac8ecdf392
-Size: 628
+MD5Sum: c24322f835472dca8565cbbe8b710592
+SHA256sum: 342d86095800c67cd8a5fc2f42ed002583eb6397ada493abebe10961815b103a
+Size: 632
 Filename: network-usb-drivers-meta_1.0-r0_all.ipk
 Source: network-usb-drivers-meta.bb
 Description: meta file for USB Network drivers
@@ -5805,14 +5805,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git630+e899d56-3
+Version: 2+git632+e0bf1df-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 09ccee8dec9e09ebee6ffe254261625c
-SHA256sum: 1d88793f6a854178f51d2e4fbae6cff4bf3d0891c81d9cec6c85284089b71821
+MD5Sum: f921b2571aa0ce2497adc8ef1c19675e
+SHA256sum: 67e896d2940a28b9e01880cd6995838de05e9bd2e30572ae0084b5858d6d3949
 Size: 560
-Filename: tuxbox-common-dbg_2+git630+e899d56-3_all.ipk
+Filename: tuxbox-common-dbg_2+git632+e0bf1df-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -5820,15 +5820,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git630+e899d56-3
-Recommends: tuxbox-common (>= 2+git630+e899d56-3), tuxbox-common (<< 2+git630+e899d56-3.0), xz-dev
+Version: 2+git632+e0bf1df-3
+Recommends: tuxbox-common (>= 2+git632+e0bf1df-3), tuxbox-common (<< 2+git632+e0bf1df-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 8affa10e130864d6d05478b058969906
-SHA256sum: 08cff0f819f894c3c92ad51cb4359295bc7779f918b39856e7218c9c210e55ff
-Size: 614
-Filename: tuxbox-common-dev_2+git630+e899d56-3_all.ipk
+MD5Sum: f85240447fc720400860a41d6060008e
+SHA256sum: 2d5ad885a64c74034ed17e0ceddab10c7ed344afeb721849017e1fc193cf9ea7
+Size: 612
+Filename: tuxbox-common-dev_2+git632+e0bf1df-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -5836,15 +5836,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git630+e899d56-3
+Version: 2+git632+e0bf1df-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 57fc2bce42bbf1726f2732831c1bdc55
-SHA256sum: 97b889fb8ca1f8ded19834a8cbef4fb3d2d780067228a2a0d6cbe9c03109720b
-Size: 73306
-Filename: tuxbox-common_2+git630+e899d56-3_all.ipk
+MD5Sum: 7e1c302b5f7b0a14a9ea5a7e0083dd13
+SHA256sum: 7cf0b26f5b1ba475ef3c13ad9262ca70e1811a3b7676b5578393c6243ac32a4a
+Size: 73316
+Filename: tuxbox-common_2+git632+e0bf1df-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
