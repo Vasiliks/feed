@@ -2762,14 +2762,14 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-skins-e2darkos-dbg
-Version: 1.0+git245+f4b1c6d-r0
+Version: 1.0+git246+9c9d837-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 2999067f8974f26d2183dd72478afdf8
-SHA256sum: 4f45a30411dcbe6d9a86404910e0e8c58e7ce2e4c3a356ce1c0b479b3e4f8900
-Size: 686
-Filename: enigma2-plugin-skins-e2darkos-dbg_1.0+git245+f4b1c6d-r0_all.ipk
+MD5Sum: 9316f3badb85e7152cfeae14bd48eaf2
+SHA256sum: 32b6727f96227d6cda82fb0766d6f0dd621356369c9b2e65334735e0aaa3476f
+Size: 688
+Filename: enigma2-plugin-skins-e2darkos-dbg_1.0+git246+9c9d837-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: enigma2-plugin-skins-e2darkos version 1.0+git-r0 - Debugging files
 OE: enigma2-plugin-skins-e2darkos
@@ -2777,15 +2777,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-e2darkos-dev
-Version: 1.0+git245+f4b1c6d-r0
-Recommends: enigma2-plugin-skins-e2darkos (= 1.0+git245+f4b1c6d-r0)
+Version: 1.0+git246+9c9d837-r0
+Recommends: enigma2-plugin-skins-e2darkos (= 1.0+git246+9c9d837-r0)
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 309ed0e2b06cadf42753ca1f26340405
-SHA256sum: 22a219df4b32ecbc4091d219ddbe6490e9f621adddb29204b92d4a9bae9f2eb1
+MD5Sum: 8cf7347456461bfb01d5d2c986d66b36
+SHA256sum: 1c8894da306d43dbbbec42dadcb3fa31bfbfbe02370d1b0edc5542439e408438
 Size: 724
-Filename: enigma2-plugin-skins-e2darkos-dev_1.0+git245+f4b1c6d-r0_all.ipk
+Filename: enigma2-plugin-skins-e2darkos-dev_1.0+git246+9c9d837-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: enigma2-plugin-skins-e2darkos version 1.0+git-r0 - Development files
 OE: enigma2-plugin-skins-e2darkos
@@ -2793,15 +2793,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-e2darkos
-Version: 1.0+git245+f4b1c6d-r0
+Version: 1.0+git246+9c9d837-r0
 Recommends: enigma2-boxlogos
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 8a38d4643c8e8f9cac733c785474351a
-SHA256sum: 00d0117da830f673fad1c1b8ae838ebc91e80099e3b7035146c7b8d688c69b74
-Size: 2892734
-Filename: enigma2-plugin-skins-e2darkos_1.0+git245+f4b1c6d-r0_all.ipk
+MD5Sum: fecbf4bf93d8a4327dbc9ea9f4ce9578
+SHA256sum: de12d206547fabf88df85b0c42ae28c2c966975d18239e735324ff08301c842b
+Size: 2894346
+Filename: enigma2-plugin-skins-e2darkos_1.0+git246+9c9d837-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: enigma2-plugin-skins-e2darkos version 1.0+git-r0
 OE: enigma2-plugin-skins-e2darkos
@@ -2872,14 +2872,14 @@ License: GPL-2.0-only
 Priority: required
 
 Package: enigma2-plugin-skins-pli-hd-dbg
-Version: 0.1+git2278+806ac7b-r0
+Version: 0.1+git2284+5c0c91d-r0
 Section: devel
 Architecture: all
 Maintainer: littlesat
-MD5Sum: 5465dd25a34cc786e18c04044e5b74ee
-SHA256sum: 3575b7134908dbe9492822231d87012f7ccd882431f41b3928e324b6beb2f94f
+MD5Sum: f6721089e1612464c87a3e2d814e8af3
+SHA256sum: 02aa244ff9b08840625f8da59e3ab51af5dbc8acb3ec5d521236f5e75857d747
 Size: 662
-Filename: enigma2-plugin-skins-pli-hd-dbg_0.1+git2278+806ac7b-r0_all.ipk
+Filename: enigma2-plugin-skins-pli-hd-dbg_0.1+git2284+5c0c91d-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
 Description: enigma2-plugin-skins-pli-hd version 0.1+git-r0 - Debugging files
 OE: enigma2-plugin-skins-pli-hd
@@ -2887,15 +2887,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-skins-pli-hd-dev
-Version: 0.1+git2278+806ac7b-r0
-Recommends: enigma2-plugin-skins-pli-hd (= 0.1+git2278+806ac7b-r0)
+Version: 0.1+git2284+5c0c91d-r0
+Recommends: enigma2-plugin-skins-pli-hd (= 0.1+git2284+5c0c91d-r0)
 Section: devel
 Architecture: all
 Maintainer: littlesat
-MD5Sum: 9cfc3c8db468c6c73e40714948b5e03e
-SHA256sum: 59a3f15ab0cb25a49719379946c84edf94e0453c54ba3a6447a708df818a23bb
-Size: 700
-Filename: enigma2-plugin-skins-pli-hd-dev_0.1+git2278+806ac7b-r0_all.ipk
+MD5Sum: 2b50e0e6d98d65d2753759859232b7ee
+SHA256sum: b7d4d7e4c6b17e6a01d171c581a0df2aeaac55a6c2bae195afedb81c006e3724
+Size: 702
+Filename: enigma2-plugin-skins-pli-hd-dev_0.1+git2284+5c0c91d-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
 Description: enigma2-plugin-skins-pli-hd version 0.1+git-r0 - Development files
 OE: enigma2-plugin-skins-pli-hd
@@ -2949,14 +2949,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-skins-pli-hd
-Version: 0.1+git2278+806ac7b-r0
+Version: 0.1+git2284+5c0c91d-r0
 Section: base
 Architecture: all
 Maintainer: littlesat
-MD5Sum: 1afe0594391c3106307a0eaa69935801
-SHA256sum: 9615a77dd59e19366b239d848e2d593cce67aea16478513c9dfaf11071d6791f
-Size: 386132
-Filename: enigma2-plugin-skins-pli-hd_0.1+git2278+806ac7b-r0_all.ipk
+MD5Sum: 94e44daa1a0b542edfb70675e90a4c54
+SHA256sum: e46925e3b2ee309ced33bb274606c40b45d58e717fcbfaa80da70e6311d3d3e9
+Size: 386432
+Filename: enigma2-plugin-skins-pli-hd_0.1+git2284+5c0c91d-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
 Description: enigma2-plugin-skins-pli-hd version 0.1+git-r0
 OE: enigma2-plugin-skins-pli-hd
@@ -2964,14 +2964,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-timezones-dbg
-Version: git934+5e6f50c-r0
+Version: git937+3dce335-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f97fcb0efd26ed55c2458062206e96f1
-SHA256sum: 956a2e7160a2f4a795f89da033f246ed02f3bc99a8bf8adb34d2e48aebafbca6
-Size: 680
-Filename: enigma2-timezones-dbg_git934+5e6f50c-r0_all.ipk
+MD5Sum: f038d2bf09ca4a50c8c5a4d846e4cf18
+SHA256sum: 228d00974c0ea0034a322c343eb6e94f5c20b45415f0cc6788f42d4937363342
+Size: 678
+Filename: enigma2-timezones-dbg_git937+3dce335-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2 - Debugging files
 OE: enigma2-timezones
@@ -2979,15 +2979,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-timezones-dev
-Version: git934+5e6f50c-r0
-Recommends: enigma2-timezones (= git934+5e6f50c-r0)
+Version: git937+3dce335-r0
+Recommends: enigma2-timezones (= git937+3dce335-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 24f9f1fdfd9294ab71a4f6fae892987a
-SHA256sum: bb795c473bf9059c0fe16b6126c061e26554de9e3f926c2d554e5daf8e3bf7ac
-Size: 712
-Filename: enigma2-timezones-dev_git934+5e6f50c-r0_all.ipk
+MD5Sum: 40ad4acdaa690bc074a4fe3265922b85
+SHA256sum: 36e539c5e6d5f038b017f9222f12914e575190029badbe192880f3cecabbd96a
+Size: 710
+Filename: enigma2-timezones-dev_git937+3dce335-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2 - Development files
 OE: enigma2-timezones
@@ -2995,14 +2995,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-timezones
-Version: git934+5e6f50c-r0
+Version: git937+3dce335-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 32c00d67b0ff2ec3053d707fd66fbce5
-SHA256sum: 0b87c10cfcfea10e3e90828f4a701f82e2edc2201e355077be8b7d066a045038
-Size: 6286
-Filename: enigma2-timezones_git934+5e6f50c-r0_all.ipk
+MD5Sum: 9809ff66968c5a3ee5dd73b00addee0c
+SHA256sum: b8204f612740bd5c9ff27b3dd4472237bd60b6d425b6a4bf23f55ca3e171d3b9
+Size: 6284
+Filename: enigma2-timezones_git937+3dce335-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2
 OE: enigma2-timezones
@@ -3377,14 +3377,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git807+1b95337-3
+Version: 2+git826+98ac166-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: dfeaf25b30a05cb8ff8663a99d132e71
-SHA256sum: e951c5969050fb0cc2b0a70596ee75263bc1c0219c512de3b9830f5da4ebddcd
+MD5Sum: bfd7cac280fd33a35b748b0f849f32f8
+SHA256sum: 17401be8c8be52c80d63ae494f8f4b43637118b2e70b9f5f90919768560495e5
 Size: 654
-Filename: tuxbox-common-dbg_2+git807+1b95337-3_all.ipk
+Filename: tuxbox-common-dbg_2+git826+98ac166-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -3392,15 +3392,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git807+1b95337-3
-Recommends: tuxbox-common (>= 2+git807+1b95337-3), tuxbox-common (<< 2+git807+1b95337-3.0), xz-dev
+Version: 2+git826+98ac166-3
+Recommends: tuxbox-common (>= 2+git826+98ac166-3), tuxbox-common (<< 2+git826+98ac166-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 4556bf5fcc1acafe6a2cad2cdca37cb9
-SHA256sum: 2cab0624da012e2e13863ff479dd917efdd221a38c982ecdcbea7ff4444f92c2
+MD5Sum: f56859499e07c5fd462fa63ba1fe3f96
+SHA256sum: cf814608399baad87cf11be6e1a98e5b040b904109b8cac282e70681b50630db
 Size: 708
-Filename: tuxbox-common-dev_2+git807+1b95337-3_all.ipk
+Filename: tuxbox-common-dev_2+git826+98ac166-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -3408,15 +3408,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git807+1b95337-3
+Version: 2+git826+98ac166-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: c1bb9c6f72ee96c4a899fc510db9738e
-SHA256sum: bff6cff3abd79a770bacf11017e958279fe34144104baef2f61f33a923f2136c
-Size: 48792
-Filename: tuxbox-common_2+git807+1b95337-3_all.ipk
+MD5Sum: 7aab2b3cc38c2c205822387d29715a23
+SHA256sum: 3e5852c39cfe3963e374f138cb098e96660fb1361f1df472897767de8aaa2657
+Size: 48704
+Filename: tuxbox-common_2+git826+98ac166-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
